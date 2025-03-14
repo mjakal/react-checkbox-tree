@@ -50,7 +50,7 @@ function nanoid() {
   });
 }
 
-function classNames (classObject = {}, classString = '') {
+function classNames(classObject = {}, classString = '') {
   const objectKeys = Object.keys(classObject);
   let allClasses = classString ? `${classString} ` : '';
 
