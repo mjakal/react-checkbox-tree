@@ -1,5 +1,5 @@
 {
-  "name": "react-checkbox-tree",
+  "name": "checkbox-tree-react-19",
   "version": "1.8.0",
   "description": "A simple and elegant checkbox tree for React.",
   "author": "Jake Zatecky",
@@ -40,7 +40,7 @@
     "test-style-equivalence": "postcss .css-compare/less.css --output .css-compare/less.css && postcss .css-compare/scss.css --output .css-compare/scss.css && cmp .css-compare/less.css .css-compare/scss.css"
   },
   "peerDependencies": {
-    "react": "^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+    "react": "^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -85,9 +85,6 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "classnames": "^2.2.5",
-    "lodash": "^4.17.10",
-    "nanoid": "^3.0.0",
     "prop-types": "^15.5.8"
   }
 }

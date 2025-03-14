@@ -1,7 +1,4 @@
-import classNames from 'classnames';
-import isEqual from 'lodash/isEqual';
-import memoize from 'lodash/memoize';
-import { nanoid } from 'nanoid';
+import { isEqual, memoize, nanoid, classNames } from './helpers';
 import PropTypes from 'prop-types';
 import React from 'react';
 
