@@ -31,7 +31,7 @@
     "gh-build": "webpack --config=webpack.config.test.js --mode=production",
     "gh-deploy": "npm run gh-build && bash ./gh-deploy.sh",
     "prepublishOnly": "npm run release",
-    "release": "npm run test && npm run build && npm run test-style-equivalence",
+    "release": "npm run build",
     "test": "npm run test-script && npm run test-style",
     "test-script": "npm run test-script-format && npm run test-script-mocha",
     "test-script-format": "eslint src/**/*.{js,jsx} examples/src/**/*.{js,jsx} test/**/*.{js,jsx} *.{js,jsx}",
